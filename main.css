@@ -1,7 +1,75 @@
-#n0{color:red;}
+*{
+margin:0px; s
+padding:0px;
+}
+h1{
 
-.n1{color:blue;}
+font:bold 20px Tahoma;
+}
+h2{
+font:bold 14px Tahoma;
+}
 
-p[name]{color:green;}
+header, section, footer, aside, nav, article, hgroup
+{
+display:block;
+}
 
-p[name="pierwszy"]{color:yellow;}
+body{
+
+text-align:center;
+}
+
+#cz_glowna
+{
+border:1px solid black;
+width:1000px;
+margin:20px auto;
+text-align:left;
+}
+
+#top_header
+{
+background:yellow;
+border:1px solid blue;
+padding:20px;
+}
+
+#top_men
+{
+background:blue;
+color:white;
+}
+
+#top_men li
+{
+display:inline-block;
+list-style:none;
+padding:5px;
+font:bold 14px Tahoma;
+}
+
+#main_section
+{
+float:left;
+width:660px;
+margin:30px; /* to jest komentarz 1000-660-30-30=280*/
+
+}
+
+#side_news
+{
+float:left;
+width:220px;
+margin:20px 0px;
+padding:30px;
+background:#66cccc;
+}
+
+#stopka
+{
+clear:both;
+text-align:center;
+padding:20px;
+border-top:2px solid green;
+}
