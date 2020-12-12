@@ -1,78 +1,62 @@
-<!doctype html>
-
+	
 <html lang="pl">
-
+		
 <head>
-<meta charset="utf-8"/>
-<title> M O J A S T R O N A</title>
-<link rel="stylesheet" href="main.css">
+   <meta charset="utf-8"/>
+   <title>Portfolio</title>
+   <link rel="stylesheet" href="main.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   <script src="script.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
 </head>
-
+		
 <body>
+				
+   <header id="top_header">
+	  <h1>
+		 Witam na mojej stronie
+	  </h1>
+   </header>
+		
+   <nav id="top_men">
+	  <ul>
+		<li>
+			<a href="javascript:activateTab('page1')">Home</a>
+       </li>
+       <li>
+			<a href="javascript:activateTab('page2')">Pictures</a>
+       </li>
+	  </ul>
+	</nav>
+		
+   <div id="tabCtrl">
+      <div id="page1" style="display: block;">
+		 <section id="main section">
+		
+	       <article>
+	         <header>
+		      <hgroup>
+		       <h1>Pierwszy artykuł</h1>
+		      </hgroup>
+	         </header>
+		      <p>Pierwszy wpis !</p>
 
-<div id="cz_glowna">
+	         </article>		
+		
+		</section>
+	
+		</div>
+      <div id="page2" style="display: none;">
+      
+      </div>
+   </div>
 
-<header id="top_header">
-<h1>
-Witam na mojej stronce
-</h1>
-</header>
-
-<nav id="top_men">
-<ul>
-<li> Home</li>
-<li> About Me</li>
-<li> Mail</li>
-</ul>
-</nav>
-
-<section id="main section">
-
-<article>
-<header>
-<hgroup>
-<h1>Tytuł 1</h1>
-<h2>Od czegoś trzeba zacząć</h2>
-</hgroup>
-</header>
-<p>Pierwszy wpis !</p>
-<footer>
-<p> Napisał Jarosław Kwiatkowski </p>
-</footer>
-</article>
-
-<article>
-<header>
-<hgroup>
-<h1>Tytuł 2</h1>
-<h2>Od czegoś trzeba zacząć</h2>
-</hgroup>
-</header>
-<p>Pierwszy wpis !</p>
-<footer>
-<p> Napisał Jarosław Kwiatkowski </p>
-</footer>
-</article>
-
-</section>
-
-<aside id="side_news">
-<h4>
-Newsy
-</h4>
-To tu będą umieszczane szybki informacje
-</aside>
-
-<footer id="stopka">
-Coś dla autorów
-Copyright 2020
-</footer>
-
-</div>
-
-</body>
-
-
-
-
+   <footer id="stopka">
+		Copyright 2020
+   </footer>				
+ </body>
 </html>
+		
+	

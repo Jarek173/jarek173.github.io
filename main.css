@@ -1,5 +1,5 @@
 *{
-margin:0px; s
+margin:0px; 
 padding:0px;
 }
 h1{
@@ -30,15 +30,14 @@ text-align:left;
 
 #top_header
 {
-background:yellow;
-border:1px solid blue;
+background:lightgreen;
 padding:20px;
 }
 
 #top_men
 {
-background:blue;
-color:white;
+background: lightgrey;
+color :white;
 }
 
 #top_men li
@@ -66,7 +65,7 @@ padding:30px;
 background:#66cccc;
 }
 
-#stopka
+#footer
 {
 clear:both;
 text-align:center;
