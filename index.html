@@ -5,57 +5,55 @@
    <meta charset="utf-8"/>
    <title>Portfolio</title>
    <link rel="stylesheet" href="main.css">
+    <script src="script.js"></script>
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-   <script src="script.js"></script>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
 </head>
 		
 <body>
-				
-   <header id="top_header">
-	  <h1>
-		 Witam na mojej stronie
-	  </h1>
-   </header>
-		
-   <nav id="top_men">
-	  <ul>
-		<li>
-			<a href="javascript:activateTab('page1')">Home</a>
+
+  <div id="topMen">		
+	  <ul id="topMenUl" class="nav nav-tabs">
+		<li class="nav-item">
+			<a class="nav-link" href="javascript:activateTab('page1')">About Me</a>
        </li>
-       <li>
-			<a href="javascript:activateTab('page2')">Pictures</a>
+        <li class="nav-item">
+			<a class="nav-link" href="javascript:activateTab('page2')">My Works</a>
+       </li>
+        <li class="nav-item">
+			<a class="nav-link" href="javascript:activateTab('page3')">Contact</a>
        </li>
 	  </ul>
-	</nav>
-		
-   <div id="tabCtrl">
-      <div id="page1" style="display: block;">
-		 <section id="main section">
-		
-	       <article>
-	         <header>
-		      <hgroup>
-		       <h1>Pierwszy artykuł</h1>
-		      </hgroup>
-	         </header>
-		      <p>Pierwszy wpis !</p>
+    </div>	
+    
+   <div id="tabCtrl" >
+      <div id="page1">
+	   <section>
+         <div id="myImage">  </div>
+             <div id="page1Text">
+               <article>
+	             <header>
+		          <hgroup>
+		            <h1>Cześć, jestem młodszym inżynierem oprogramowania</h1>
+		          </hgroup>
+	             </header>
+		          <p>Pierwszy wpis !</p>
+                 
+                  <button onclick = "javascript:activateTab('page2')" type="button" class="btn btn-success">My Works</button>
 
-	         </article>		
-		
-		</section>
-	
-		</div>
-      <div id="page2" style="display: none;">
+	             </article>	
+                </div>
+       </section>
+
+     </div>
+     
+      <div id="page2" style="display: block;">
       
       </div>
-   </div>
-
-   <footer id="stopka">
-		Copyright 2020
-   </footer>				
+      <div id="page3" style="display: block;">
+      
+      </div>
+    </div>
  </body>
 </html>
 		

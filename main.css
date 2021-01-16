@@ -1,5 +1,4 @@
 *{
-margin:0px; 
 padding:0px;
 }
 h1{
@@ -15,56 +14,55 @@ header, section, footer, aside, nav, article, hgroup
 display:block;
 }
 
-body{
-
+html, body{
+ height:100%;
+  margin:0;
 text-align:center;
 }
 
-#cz_glowna
+#topMen
 {
-border:1px solid black;
-width:1000px;
-margin:20px auto;
-text-align:left;
+background-color: #698B88;
 }
 
-#top_header
-{
-background:lightgreen;
-padding:20px;
-}
-
-#top_men
-{
-background: lightgrey;
-color :white;
-}
-
-#top_men li
+#topMen li
 {
 display:inline-block;
 list-style:none;
 padding:5px;
 font:bold 14px Tahoma;
+
 }
 
-#main_section
+.nav-link
 {
-float:left;
-width:660px;
-margin:30px; /* to jest komentarz 1000-660-30-30=280*/
+  color: black;
+  float: right;
+
 
 }
-
-#side_news
+#page1Text
 {
-float:left;
-width:220px;
-margin:20px 0px;
-padding:30px;
-background:#66cccc;
+ background-image: linear-gradient(to right top, #d1bf8d, #beb389, #aca685, #9b9981, #8c8c7d);
+  min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    text-align:left;
+
 }
 
+#myImage{
+    background-image: url("example.jpg");
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 50%;
+    left: 0;
+}
 #footer
 {
 clear:both;
