@@ -43,17 +43,57 @@ font:bold 14px Tahoma;
 }
 #page1Text
 {
- background-image: linear-gradient(to right top, #d1bf8d, #beb389, #aca685, #9b9981, #8c8c7d);
-  min-height: 100%;
+    background-image: linear-gradient(to right top, #d1bf8d, #beb389, #aca685, #9b9981, #8c8c7d);
+    min-height: 100%;
     background-position: center;
     background-size: cover;
     position: absolute;
     width: 50%;
+    height: 50%;
     left: 50%;
     text-align:left;
 
 }
+#page2Text
+{
+    background-image: linear-gradient(to right top, #d1bf8d, #beb389, #aca685, #9b9981, #8c8c7d);
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    text-align:center;
 
+}
+#page3Text
+{
+    background-image: linear-gradient(to right top, #d1bf8d, #beb389, #aca685, #9b9981, #8c8c7d);
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    text-align:center;
+
+}
+#news
+{
+    border-left: 6px solid red;
+    background-color: lightgrey;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 50%;
+    height: 40%;
+    top: 50%;
+    left: 50%;
+    text-align:left;
+
+}
 #myImage{
     background-image: url("example.jpg");
     min-height: 100%;
