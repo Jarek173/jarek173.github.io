@@ -38,8 +38,12 @@ font:bold 14px Tahoma;
 {
   color: black;
   float: right;
+}
 
-
+.active
+{
+  color: black;
+  float: right;
 }
 #page1Text
 {
