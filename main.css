@@ -40,11 +40,6 @@ font:bold 14px Tahoma;
   float: right;
 }
 
-.active
-{
-  color: black;
-  float: right;
-}
 #page1Text
 {
     background-image: linear-gradient(to right top, #d1bf8d, #beb389, #aca685, #9b9981, #8c8c7d);
