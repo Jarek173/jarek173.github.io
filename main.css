@@ -66,10 +66,10 @@ font:bold 14px Tahoma;
     background-position: center;
     background-size: cover;
     position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0%;
-    text-align:center;
+    width: 50%;
+    height: 50%;
+    left: 50%;
+    text-align:left;
 
 }
 #page3Text
@@ -101,6 +101,15 @@ font:bold 14px Tahoma;
 }
 #myImage{
     background-image: url("example.jpg");
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 50%;
+    left: 0;
+}
+#myImage2{
+    background-image: url("cables.jpeg");
     min-height: 100%;
     background-position: center;
     background-size: cover;
