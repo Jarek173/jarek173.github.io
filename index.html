@@ -8,6 +8,8 @@
     <script src="script.js"></script>
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+       <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
+
 </head>
 		
 <body>
@@ -23,18 +25,41 @@
         <li class="nav-item">
 			<a id = "MyNav" href="javascript:activateTab('page3')">Contact</a>
        </li>
+       <li class="nav-item">
+			<a id = "MyNav" href="javascript:activateTab('page4')">AFrame</a>
+       </li>
 	  </ul>
     </div>	
     
    <div id="tabCtrl" >
+	 <div id="page4" style="display: none;">
+         <div id="page4">
+			   <a-scene background="color: #FAFAFA">
+      <a-assets>
+        <img id="groundTexture" src="https://cdn.aframe.io/a-painter/images/floor.jpg" crossorigin="anonymous">
+        <img id="skyTexture" src="https://cdn.aframe.io/a-painter/images/sky.jpg" crossorigin="anonymous">
+      </a-assets>
+          
+      <a-plane src="#groundTexture" position="0 0 -4.5" rotation="-90 0 0" width="100" height="100" shadow></a-plane>
+
+      <a-sky height="2048" radius="30" src="#skyTexture" theta-length="90" width="2048"></a-sky>
+
+      <a-sphere src="https://raw.githubusercontent.com/aframevr/sample-assets/master/assets/images/space/earth_atmos_4096.jpg" radius="0.5">  </a-sphere>
+
+      <a-box src="https://raw.githubusercontent.com/aframevr/sample-assets/master/assets/images/terrain/grasslight-big.jpg" position = "0 1 -2"></a-box>
+
+  
+    </a-scene>	         
+	     </div>
+      </div>    
 	   
-	 <div id="page3" style="display: block;">
+	 <div id="page3" style="display: none;">
          <div id="page3Text">
-			  <h1>Mój email: jarek261997@gmail.com: </h>		         
+			  <h1>Mój email: jarek261997@gmail.com </h>		         
 	     </div>
       </div>  
 	   
-	  <div id="page2">
+	  <div id="page2" style="display: none;">
 		<div id="myImage2">  </div>
         <div id="page2Text">
             <article>
@@ -78,5 +103,6 @@
     </div>
  </body>
 </html>
-		
+<script src="index.js"></script>
+
 	
