@@ -56,7 +56,7 @@ font:bold 14px Tahoma;
     background-size: cover;
     position: absolute;
     width: 50%;
-    height: 50%;
+    height: auto;
     left: 50%;
     text-align:left;
 
@@ -69,7 +69,7 @@ font:bold 14px Tahoma;
     background-size: cover;
     position: absolute;
     width: 50%;
-    height: 50%;
+    height: auto;
     left: 50%;
     text-align:left;
 
@@ -82,7 +82,7 @@ font:bold 14px Tahoma;
     background-size: cover;
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: auto;
     left: 0%;
     text-align:center;
 
@@ -108,6 +108,7 @@ font:bold 14px Tahoma;
     background-size: cover;
     position: absolute;
     width: 50%;
+    height: auto;
     left: 0;
 }
 #myImage2{
@@ -117,12 +118,6 @@ font:bold 14px Tahoma;
     background-size: cover;
     position: absolute;
     width: 50%;
+    height: auto;
     left: 0;
-}
-#footer
-{
-clear:both;
-text-align:center;
-padding:20px;
-border-top:2px solid green;
 }
